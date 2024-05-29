@@ -1,0 +1,206 @@
+
+    body { 
+      font-family: 'Open Sans', sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      background-image: url(sfondo.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    p{
+      font-family: 'Open Sans', sans-serif;
+    }
+    header {
+      background-color:lightcoral;
+      color: #fff;
+      border: 2px solid white;
+      border-radius: 15px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    nav li {
+      float: left;
+      padding-left: 2%;
+    }
+    #logo img {
+      width: 60%;
+      margin-bottom: 5%;
+      padding-top: 5%;
+    }
+    nav a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #111;
+    }
+    main {
+      padding: 2rem;
+    }
+    #tit h1{
+      font-size: 250%;
+      color: white;
+      text-align: center;
+      font-family:'Open Sans', sans-serif ;
+      font-weight:400;
+      font-style:normal;
+    }
+    #tit h2{
+      font-size: 150%;
+      color:white;
+      text-align: center;
+      font-family:'Open Sans', sans-serif;
+      font-weight:400;
+      font-style:normal;
+    }
+    .testo{
+      color:white;
+      padding-top: 7%;
+      padding-left: 5%;
+      padding-right: 5%;
+      font-color:blue;
+      font-align:justify;
+    }
+    .testo  img{
+      width: 110%;
+      height: 110%;
+      border: 2px solid white;
+      border-radius: 12px;
+      padding: 0.5%;
+    }
+    button{
+      background-color: transparent;
+      color: #fff;
+    }
+    .AYCE{
+      color:#fff;
+    }
+    .AYCE h1{
+      padding-top: 3%;
+      text-align: center;
+    }
+    .AYCE img{
+     float:right;
+     height: 30%;
+     width: 35%;
+	   margin-bottom:2%;
+     border: 2px solid white;
+     border-radius: 12px;
+     padding: 0.5%;
+     margin-right:5%;
+    }
+    .AYCE p{
+      padding-right:50%;
+      padding-left: 3%;
+    }
+    .pran {
+      text-align: center;
+     border: 2px solid white;
+     border-radius: 12px;
+     color: #fff;
+     float:left;
+     margin-left: 25%;
+     margin-right: 0%; 
+    }
+    .cen {
+  text-align: center;
+  border: 2px solid white;
+     border-radius: 12px;
+     color: #fff;
+     float: right;
+     margin-left: 0%;
+     margin-right: 25%;
+    }
+    .AYCE h2{
+      padding-top: 3%;
+      text-align: center;
+      text-decoration:underline greenyellow;
+    }
+    .AYCE ul {
+      padding-right:30%;
+      padding-left: 20%;
+      line-height: 150%;
+    }
+    .contact{
+      float: left; 
+      padding-left: 5%;
+    }
+   .container {
+   padding-left: 5%;
+    float: right;
+}
+.review{
+
+}
+.review:last-child {
+    border-bottom: none;
+}
+.review p {
+    color: #fff;
+}
+.review i {
+    color: yellow;
+}
+.fotoBoxContent {
+  width: 100%;
+  float: left;
+}
+.fotoBox img {
+  float: left;
+  margin-right: 1em;
+  width: 50%;
+  height: 50%;
+  border: none;
+}
+.fotoBox, a.fotoBox {
+  clear: left;
+  float: left;
+  border: 4px solid #00000;
+  background: #00000;
+  padding: 3px;
+  margin: 0 0 1px;
+  text-decoration: none;
+}
+.fotoBox2 img {
+  float: right;
+  margin-right: 1em;
+  width: 50%;
+  height: 50%;
+  border: none;
+}
+.fotoBox2, a.fotoBox2 {
+  clear: left;
+  float: left;
+  border: 4px solid #0000;
+  background: #0000;
+  padding: 3px;
+  margin: 0 0 1px;
+padding-right:1%;
+  text-decoration: none;
+}
+.fotoBox3 img {
+  float: left;
+  margin-right: 1em;
+  width: 50%;
+  height: 50%;
+  border: none;
+}
+.fotoBox3, a.fotoBox2 {
+  clear: left;
+  float: left;
+  border: 4px solid #0000;
+  background: #0000;
+  padding: 3px;
+  margin: 0 0 1px;
+padding-right:1%;
+  text-decoration: none;
+}
+a.fotoBox:hover {border: 4px solid #7abbeb;}
